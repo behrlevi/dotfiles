@@ -1,2 +1,3 @@
+#!/bin/bash
 echo "Szoi!" > /tmp/szoker
 echo "set -o vi" >> ~/.bashrc
