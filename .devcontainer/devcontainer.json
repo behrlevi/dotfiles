@@ -4,6 +4,6 @@
     "dockerfile": "Dockerfile"
   },
 
-  "postCreateCommand": "./.devcontainer/setup"
+  "postCreateCommand": "./.devcontainer/setup",
   "postCreateCommand": "./scripts/setup"
 }
