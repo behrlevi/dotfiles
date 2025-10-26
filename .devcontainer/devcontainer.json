@@ -5,5 +5,5 @@
   },
 
   "postCreateCommand": "./.devcontainer/setup",
-  "postCreateCommand": "./scripts/setup"
+  "postCreateCommand": "/scripts/setup"
 }
