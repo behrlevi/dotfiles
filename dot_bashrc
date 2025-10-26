@@ -158,6 +158,6 @@ fi
 
 # Levente's Custom Addions
 
-set -o vi
+set -o vim
 
 eval "$(mise activate bash)"
