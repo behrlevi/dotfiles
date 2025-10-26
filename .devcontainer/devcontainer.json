@@ -3,9 +3,6 @@
     "context": "..",
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": [
-	"./.devcontainer/setup",
- 	"./scripts/setup"
-  ],
+  "postCreateCommand": "./.devcontainer/setup && ./scripts/setup",
   "remoteUser": "vscode"
 }
