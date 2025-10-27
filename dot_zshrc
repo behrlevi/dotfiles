@@ -83,16 +83,7 @@ if command -v lsd > /dev/null ; then
   alias lt='ls --tree'
 fi
 
-# --- Fix Backspace and Delete ---
+# ~~~~~~~~~~~~~ Fixes ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# 1. Fix your Delete key (based on your test)
-#bindkey '^[[3~' delete-char
-
-# 2. Fix Backspace by binding *both* common codes
-#bindkey '^?' backward-delete-char
-#bindkey '^H' backward-delete-char
-
-# 3. Tell the terminal driver what "erase" is
-#stty erase '^?'
-
-# --- End Fix ---
+# Backspace, del and arrow key not working
+export TERM=xterm
