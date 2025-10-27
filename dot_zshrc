@@ -86,13 +86,13 @@ fi
 # --- Fix Backspace and Delete ---
 
 # 1. Fix your Delete key (based on your test)
-bindkey '^[[3~' delete-char
+#bindkey '^[[3~' delete-char
 
 # 2. Fix Backspace by binding *both* common codes
-bindkey '^?' backward-delete-char
-bindkey '^H' backward-delete-char
+#bindkey '^?' backward-delete-char
+#bindkey '^H' backward-delete-char
 
 # 3. Tell the terminal driver what "erase" is
-stty erase '^?'
+#stty erase '^?'
 
 # --- End Fix ---
