@@ -1,4 +1,2 @@
 [tools]
 kubectl = "latest"
-docker = "latest"
-docker-compose = "latest"
