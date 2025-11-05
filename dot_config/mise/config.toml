@@ -8,15 +8,3 @@ neovim = "latest"
 node = "latest"
 python = "latest"
 uv = "latest"
-
-[settings]
-python.uv_venv_auto = true
-idiomatic_version_file_enable_tools = ["python"]
-experimental = true
-
-[env]
-APP_REPO = 'dotfiles'
-GITOPS_REPO = 'gitops'
-
-[hooks]
-enter = "bash ./scripts/setup_project"
