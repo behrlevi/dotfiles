@@ -7,5 +7,8 @@
   "remoteUser": "vscode",
   "mounts": [
     "source=${localEnv:HOME},target=/workspaces/dotfiles/hazai,type=bind,consistency=cached"
+  ],
+  "forwardPorts": [
+    8000
   ]
 }
