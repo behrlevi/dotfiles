@@ -6,7 +6,7 @@
   "postCreateCommand": "./.devcontainer/setup && ./scripts/setup",
   "remoteUser": "vscode",
   "mounts": [
-    "source=${localEnv:HOME},target=/workspaces/dotfiles/hazai,type=bind,consistency=cached"
+    "source=/,target=/workspaces/dotfiles/helyi,type=bind,consistency=cached"
   ],
    "features": {
     "ghcr.io/devcontainers/features/docker-from-docker:1": {}
