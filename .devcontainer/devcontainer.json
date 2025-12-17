@@ -8,12 +8,13 @@
   "mounts": [
     "source=/,target=/workspaces/dotfiles/helyi,type=bind,consistency=cached"
   ],
-   "features": {
+  "features": {
     "ghcr.io/devcontainers/features/docker-from-docker:1": {}
   },
   "forwardPorts": [
     8000,
     22112,
-    22111
+    22111,
+    3008
   ]
 }
