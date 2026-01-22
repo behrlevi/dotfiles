@@ -3,8 +3,7 @@
     "context": "..",
     "dockerfile": "Dockerfile"
   },
-  "remoteUser": "behr",
-  "updateRemoteUserUID": true,
+  "remoteUser": "vscode",
   "postCreateCommand": "./.devcontainer/setup && ./scripts/setup",
   "mounts": [
     "source=/home/,target=/workspaces/dotfiles/helyi,type=bind,consistency=cached"
